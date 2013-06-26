@@ -3,7 +3,7 @@
  * Spatial Interaction Modelling: Core ideas
  * 
  */
-package spatial.interaction.model;
+package SIM;
 
 /**
  *
