@@ -4,12 +4,8 @@
  */
 package uk.ac.leeds.filereader;
 
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import junit.framework.Assert;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -133,4 +129,6 @@ public class CSVReaderTest {
         //test that the results are as expected
         assertArrayEquals(expResult, result);
     }
+
 }
+
